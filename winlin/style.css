@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+   
+}
+.nav-list{
+    width:70%;
+    /*background-color: wheat;*/
+    display: flex;
+    align-items: center;  
+
+}
+.nav-list li{
+list-style: none;
+
+padding: 26px 30px;
+}
+.nav-list li a{
+    font-size: large;
+    text-decoration: none;
+    color: rgb(245, 247, 247);
+}
+.nav-list li a:hover{
+    color: grey;
+}
+.rightnav{
+    /*background-color: violet;*/
+    width: 30%;
+    text-align: right;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+.background{
+   background: rgba(0, 0, 0, 0.7) url('../winlin/abstract-9v.jpg');
+
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 80%;
+margin: auto;
+height: 80%;
+}
+.texb{
+   
+    color: rgb(87, 7, 7);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.firstSection{
+    height: 80vh;
+ 
+}
+.firstHalf{
+    width:80% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+.secondHalf{
+   
+    justify-content: center;
+     width: 20%;
+    border: 2px solid white;
+    
+
+     
+
+}
+.secondHalf img{
+    width: 100%;
+    height: 80%;
+    border: 2px solid white;
+  border-radius: 80px;
+  display: block;
+  margin: auto;
+  
+  justify-content: space-evenly;
+}
+.text-big{
+font-size: 25px;
+}
+.text-small{
+    font-size: 18px;
+
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer; 
+    text-decoration: none;
+ 
+}
+.btn-sm{
+padding: 6px 10px;
+vertical-align: middle;
+}
+.btn-dark{
+   
+    color: black;
+    border:2px solid grey;
+    }
+.section{
+    height: 500px;
+    
+    /*align-items: center;
+ 
+    justify-content:center;*/
+    max-width:80% ;
+    justify-content:space-evenly;
+    margin: auto;
+    display: flex;
+    align-items: center;
+   
+    font-family: 'Ubuntu', sans-serif;
+}
+.setion{
+    height: 100px;
+    
+    /*align-items: center;
+ 
+    justify-content:center;*/
+    max-width:80% ;
+    justify-content:space-evenly;
+    margin: auto;
+    display: flex;
+    align-items: center;
+   
+    font-family: 'Ubuntu', sans-serif;
+}
+.sectiontag{
+padding:16px ;
+}
+.sectionsubtag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left{
+   /* height: 500px;
+    
+    align-items: center;
+ 
+    justify-content:center;
+    max-width:80% ;
+    justify-content:space-evenly;
+    margin: auto;
+    display: flex;
+    align-items: center;*/
+    flex-direction: row-reverse;
+   
+
+}
+
+.thumbnail img{
+    width: 250px;
+   border-radius: 26px;
+    border: 2px solid black;
+    margin-top: 19px;
+}
+.tesmall{
+    font-size: 15px;
+    
+}
+/*.secleft{
+    height: 100px;
+    
+    align-items: center;
+    display: flex;
+   
+    max-width: 35% ;
+    margin: auto;
+    justify-content:left;
+   
+} */
+.paras{
+    padding: 0px 65px;
+}
+.contact{
+    background-color: rgb(238, 211, 176);
+height: 1200px;
+
+}
+.text-center{
+text-align: center;
+padding-top: 30px;
+font-family: 'Ubuntu', sans-serif ;
+}
+.form{
+    max-width: 500px;
+    margin: 25px auto;
+}
+.form input{
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius:6px ;
+    margin: 14px 0;
+    padding:5px 13px ;
+}
+.small{
+   font-size: 20px;
+    margin-left: 4%;
+    font-family: 'Ubuntu', sans-serif;
+}
+.abc{
+    font-size: 35px;
+  text-align: right;
+  margin-right: 5%;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.feedback{
+    
+        background-color: rgb(209, 206, 202);
+    height: 500px;
+}
+.text-footer{
+    text-align: center;
+padding: 30px 0;
+font-family: 'Ubuntu', sans-serif ;
+display: flex;
+justify-content: center;
+color: white;
+}
+.burger{
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 5px;
+}
+@media only class screen and (max-width:1140px){
+.nav-list{
+    flex-direction: column;
+}
+.navbar{
+    flex-direction: column;
+}
+.rightnav{
+    text-align: center;
+}
+#search{
+    width:100%;
+}
+.burger{
+    display: block;
+}
+
+}
+
+.bmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(10, 10, 10);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 70%;
+margin: auto;
+height: 80%;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container 
+.bmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(10, 10, 10);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 70%;
+margin: auto;
+height: 80%;
+}
+
+*/
+
+
+/* Hide the images by default 
+.mySlides {
+  display: none;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(124, 7, 7);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+ 
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7) url('../winlin.hhtml/abstract-9v.jpg');
+  }
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+   
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .2}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .2}
+    to {opacity: 1}
+  }
+  .mySlides{
+    background: rgba(0, 0, 0, 0.7) url('../winlin.hhtml/abstract-9v.jpg');
+    animation-duration: 1.5s;
+  background-size: cover;
+  background-blend-mode: darken;  
+  }
+
+
+
+
+
+
+ Next & previous buttons */
+
+.text {
+    color: #181616;
+    font-size: 25px;
+    
+    position: absolute;
+   
+  }
+ 
+  .texb{
+    position: absolute;
+    color: #181616;
+    font-size: 45px;
+    line-height:1.25em;
+   text-align: right;
+  }
+  /* Fading animation */
+  .position-9 .AddressInfo ul li {
+    color: #4a4c4c;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.phone-no {
+    list-style-image: url(../images/icon_phone.png);
+}
+#section-03 {
+    border-top: 2px solid #2acbdb;
+    background-color: rgb(236, 236, 236);
+    padding: 30px 0 20px 0;
+}
+.row{
+text-align: right;
+
+}
+.social-media__wrapper {
+    margin: 0 auto;
+    width: 90%;
+    padding-left: 0;
+    display: flex;
+    text-align: right;
+    max-width: 1600px;
+}
+.social-media__section {
+    height: 48px;
+    line-height: 48px;
+    margin-top: 48px;
+    padding: 0;
+}
+.social-media__link, .social-media__text {
+    color: #000;
+    margin-right: 16px;
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }

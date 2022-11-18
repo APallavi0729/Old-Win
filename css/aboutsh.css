@@ -1,0 +1,513 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+   
+}
+.nav-list{
+    width:70%;
+    /*background-color: wheat;*/
+    display: flex;
+    align-items: center;  
+}
+.nav-list li{
+list-style: none;
+
+padding: 26px 30px;
+}
+.nav-list li a{
+    font-size: large;
+    text-decoration: none;
+    color: rgb(245, 247, 247);
+}
+.nav-list li a:hover{
+    color: grey;
+}
+.rightnav{
+    /*background-color: violet;*/
+    width: 30%;
+    text-align: right;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+ 
+}
+.background{
+   background: rgba(0, 0, 0, 0.7) url('../project1/abstract-9v.jpg');
+   
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+   
+    }
+/*.background{
+   background: rgba(0, 0, 0, 7) url('https://source.unsplash.com/300x300/?coding,white');
+   
+  background-size: cover;
+  background-blend-mode: darken;
+}*/
+
+._1Z_nJ>* {
+    pointer-events: auto;
+}
+.font_6 {
+    font: var(--font_6);
+    color: rgb(var(--color_15));
+}
+.color_18 {
+    color: rgb(var(--color_18));
+}
+element.style {
+    font-weight: bold;
+}
+
+element.style {
+    line-height: 1.875em;
+    text-align: center;
+    font-size: 15px;
+}
+#comp-kmiotf2t {
+    --f0: var(--font_0);
+    --f1: var(--font_1);
+    --f10: var(--font_10);
+    --f2: var(--font_2);
+    --f3: var(--font_3);
+    --f4: var(--font_4);
+    --f5: var(--font_5);
+    --f6: var(--font_6);
+    --f7: var(--font_7);
+    --f8: var(--font_8);
+    --f9: var(--font_9);
+    min-height: 121px;
+    height: auto;
+}
+.font_9 {
+    font: var(--font_9);
+    color: rgb(var(--color_15));
+}
+#comp-kmiotf2s1 {
+    --bg-overlay-color: rgb(var(--color_11));
+    width: 100%;
+    --column-width: 980px;
+    --column-flex: 980;
+}
+
+
+#PAGES_CONTAINER {
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+    min-width: 980px;
+    --pinned-layer-in-container: 51;
+    --above-all-in-container: 49;
+}
+
+#masterPage {
+    --pinned-layers-in-page: 0;
+}
+#comp-kmiotf2t2 {
+    --bg-overlay-color: transparent;
+    --fill-layer-image-opacity: 1;
+    width: 100%;
+    --column-width: 980px;
+    --column-flex: 980;
+}
+#comp-kmiotf2t1 {
+    
+    --padding: 0px;
+    --margin: 0px;
+    min-width: 980px;
+}
+#PAGES_CONTAINER {
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+    min-width: 980px;
+    --pinned-layer-in-container: 51;
+    --above-all-in-container: 49;
+}
+a, abbr, acronym, address, applet, b, big, blockquote, body, button, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, ins, kbd, label, legend, li, nav, object, ol, p, pre, q, s, samp, section, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, title, tr, tt, u, ul, var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.firstHalf{
+    width:90% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+}
+.text-small{
+    font-size: 18px;
+    
+}
+.mesh{
+    text-align: center;
+    line-height:1.67em;
+    font-size:20px
+}
+.mesh img{
+    width: 980px;
+     height: 765px;
+      object-fit: cover;
+      object-position: 50% 50%;
+}
+#comp-kmiory4k {
+    --bg-overlay-color: rgb(var(--color_15));
+    --fill-layer-image-opacity: 0.75;
+    --fill-layer-background-media-position: fixed;
+    --fill-layer-background-media-pointer-events: none;
+    width: 100%;
+    --column-width: 980px;
+    --column-flex: 980;
+}
+#PAGES_CONTAINER {
+    left: 0;
+    margin-left: 0;
+    width: 100%;
+    min-width: 980px;
+    --pinned-layer-in-container: 51;
+    --above-all-in-container: 49;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../winlin/abstract-9v.jpg');
+   
+    background-size: cover;
+    background-blend-mode: darken;
+    
+   
+  /*background-size : cover;
+  background-image:  url('https://static.tatic.com/media/11062b_80c0e0270a884e20983ec3691d77e43d~mv2_d_4000_2667_s_4_2.jpg/v1/fill/w_980,h_765,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01/11062b_80c0e0270a884e20983ec3691d77e43d~mv2_d_4000_2667_s_4_2.webp');*/
+  
+ }
+ .background-Section{
+    background: rgba(0, 0, 0, 0.7) url('../winlin/abstract-9v.jpg');
+   
+    background-size: cover;
+    background-blend-mode: darken;
+ }
+ 
+
+ .text{
+    text-align:center;line-height:1.25em;font-size:62px;
+    font-weight: bold;
+    color: black;
+ }
+ .textbig{
+    text-align:center;line-height:1.67em;font-size:22px;
+    font-family:niconne,fantasy;
+    color: black;
+    }
+    .textsmall{
+    text-align:center;line-height:1.67em;font-size:20px;
+   
+    color: black;
+    }
+ .box-main{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     max-width: 40%;
+ margin: auto;
+ height: 90%;
+ }
+ .boxmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 60%;
+margin: auto;
+height: 80%;
+}
+
+ .firstSection{
+   
+     height: 50vh;
+ }
+ .THalf{
+    width:80% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+.text-footer{
+    text-align: center;
+padding: 30px 0;
+font-family: 'Ubuntu', sans-serif ;
+display: flex;
+justify-content: center;
+color: white;
+}
+
+
+/*
+<br>
+ <section class="feedback">
+<h2 class="text centre">feedback</h2>
+<div class="form">
+    <input type="form input" name="name" id="name"placeholder="Enter Your Name">
+    <input type="form input" name="Phone no"placeholder="Enter Your Phone no">
+    <input type="form input" name="Emai Id"placeholder="Enter Your Email Id">
+    <textarea class="form input" name="name" id="name"cols="30"rows="10"placeholder="Ellaborate Your Concern"></textarea>
+    <button class="btn btn-dark">Submit</button>
+</div>
+    </section> 
+    <br>
+    
+        <div id="comp-kmiory4k1" class="_1Z_nJ" data-testid="richTextElement"><h1 class="font_4" style="text-align:center;line-height:1.25em;font-size:72px"><span class="color_11"><span style="font-weight: bold;">WinLin</span></span></h1></div>
+<div id="comp-kmiuzhfk" class="_1Z_nJ" data-testid="richTextElement"><h1 class="font_0" style="text-align:center;line-height:1.67em;font-size:22px"><span style="font-family:niconne,fantasy"><span class="color_18">Let's succeed together</span></span></h1></div>
+<div id="comp-kmiory4k2" class="_1Z_nJ" data-testid="richTextElement"><p class="font_7" style="text-align:center;line-height:1.67em;font-size:20px"><span class="color_11">Learning the Fun Way</span></p></div>
+
+<br>
+.cont{
+    
+        height: 50%;
+        text-align: center;
+        color: rgb(20, 19, 19);
+     
+}
+.backgroundfirst{
+    
+    background-image:D:\picture\wallpaper\461329.jpg ;
+    width: 1250px;
+    height: 450px;
+ }
+.gfg { 
+    margin: 3%; 
+    position: relative; 
+    color: rgb(46, 46, 85);
+} 
+.third { 
+    top: 100px;
+   right: auto;
+    margin: auto;
+    line-height:1.67em;
+    font-size:20px;
+   
+} 
+
+
+
+
+
+
+Bottom left text 
+.bottom-left {
+    
+    text-align:center;
+  
+    top: 30%;
+    
+  }*/
+  
+  /* Top left text
+  .top-left {
+     font-size:62px;
+
+    text-align:center;
+    font-size:22px;
+    font-family:niconne,fantasy;
+  }
+   */
+  /* Top right text 
+  .top-right {
+   
+    text-align:center;
+    font: size 20px;
+  }
+  
+  <div class="top-left">
+  <div class="top-right">
+
+  
+ <div class="cont">
+    <img src="D:\picture\wallpaper\461329.jpg" alt="Snow" ;>
+    
+    <div class="bottom-left"><h1 class="font_4" style="text-align:center;line-height:1.25em;font-size:62px"><span class="color_11"><span style="font-weight: bold;">WinLin</span></span></h1></div>
+    <h1 class="font_0" style="text-align:center;line-height:1.67em;font-size:22px"><span style="font-family:niconne,fantasy"><span class="color_18">Let's succeed together</span></span></h1>
+    <p class="font_7" style="text-align:center;line-height:1.67em;font-size:20px"><span class="color_11">Learning the Fun Way</span></p>
+     text-align:center;
+</div>
+
+
+
+
+ <style> 
+        .gfg { 
+            margin: 3%; 
+            position: relative; 
+            color: blue;
+        } 
+  
+        .first{ 
+           top: 200px;
+           right: 475px;
+    line-height: 1.25em;
+    font-size: 62px;
+  
+margin: auto;
+
+    
+  
+    
+        .second { 
+           
+            top: 250px;
+           right: 475px;  
+    line-height: 1.67em;
+    font-size: 22px;
+   
+        } 
+        .third { 
+            top: 300px;
+           right: 475px;
+            margin: auto;
+            line-height:1.67em;
+            font-size:20px;
+           
+        } 
+  
+      
+    </style> 
+<br>
+<div class="gfg"> 
+    <img src="D:\picture\wallpaper\461329.jpg"width="1250" height="450"> 
+    <h1 class="first"> 
+        WinLin
+    </h1> 
+      <br>
+    <h2 class="second"> 
+        Let's succeed together
+    </h2> 
+    <br>
+    <h3 class="third">
+        Learning the Fun Way
+
+         </h3>
+</div> 
+
+
+
+
+
+ <section class="background firstSection">
+ 
+ 
+        <div class="box-main">
+       
+         <div class="firstHalf">
+         
+
+
+             <p class="text-small">Winlin Technologies was established in December 2002 by two ambitious IT professionals Anurag&nbsp;
+              &amp; Hussain.
+               It is a critical situation for every IT guy who has started from desktop support Engineer to select a particular domain
+                to go ahead with, the boys went for each domain and found the way to find the exact domain by checking the interest and
+                 understanding each of them,and this was the only reason they planned to build a path for each fresher or an experienced
+                  IT professional in dilemma to get his domain ,train them well and make them go ahead in his field of interest</p>
+                 
+                 
+                
+
+            </div>
+       
+        
+           
+        </div>
+</div>
+    </section>
+  */
+  .social-media__wrapper {
+    margin: 0 auto;
+    width: 90%;
+    padding-left: 0;
+    display: flex;
+    text-align: right;
+    max-width: 1600px;
+}
+.social-media__section {
+    height: 48px;
+    line-height: 48px;
+    margin-top: 48px;
+    padding: 0;
+}
+.social-media__link, .social-media__text {
+    color: #000;
+    margin-right: 16px;
+}
+.space{
+    margin-left: auto;
+}
+.Section{
+    background-color: rgb(92, 91, 91);
+    height: 350px;
+    width: 1400px;
+}
+
+ Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+ Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+ Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+ Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+ Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+ Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+ Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
